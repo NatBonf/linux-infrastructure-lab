@@ -15,7 +15,7 @@ Esta etapa estabelece a base de identidade, autenticação e resolução de nome
 - **Realm Kerberos:** `LAB.INTERNAL`
 - **NetBIOS:** `LAB`
 - **IP estático:** `192.168.10.10`
-- **Rede:** `192.168.10.0/24`
+- **Rede:** `192.168.10.0/24`	
 - **Interface de rede:** `enp0s3`
 
 ## 1. Configuração de rede
@@ -74,4 +74,24 @@ O endereço do próprio controlador de domínio é utilizado como servidor DNS p
 
 ### Observações
 
-As configurações iniciais de rede passaram por revisões durante a implantação. Este documento registra a configuração validada ao final dessa etapa, preservando as alterações relevantes para a compreensão do ambiente
+As configurações iniciais de rede passaram por revisões durante a implantação. Este documento registra a configuração validada ao final dessa etapa, preservando as alterações relevantes para a compreensão do ambiente.
+
+## 2. Serviços de domínio
+
+O Ubuntu Server foi utilizado para implantar o Samba como Controlador de Domínio Active Directory (AD/DC).
+
+**Parâmetros do domínio:**
+
+| Parâmetro | Valor |
+|---|---|
+| Nome do domínio | `lab.internal` |
+| Realm Kerberos | `LAB.INTERNAL` |
+| Nome NetBIOS | `LAB` |
+| Controlador de domínio | `ubuntu-dc` |
+| Endereço IP | `192.168.10.10` |
+
+## 3. Estado da etapa
+
+Ao final desta etapa, o Ubuntu Server passou a atuar como base central de domínio para a infraestrutura do laboratório.
+
+O controlador de domínio foi utilizado posteriormente como referência para a integração do servidor Debian, desenvolvido na Etapa 02.
