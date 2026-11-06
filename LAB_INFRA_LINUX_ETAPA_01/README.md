@@ -43,3 +43,5 @@ lab-infra-linux/
 ├── docs/
 │   └── etapas/
 │       └── 01-samba-ad-dc.md
+|       └── 02-debian-file-server
+|       └── 03-usuarios-e-grupos
