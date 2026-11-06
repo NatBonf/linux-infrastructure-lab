@@ -240,8 +240,7 @@ Foi criado um arquivo local para testar o envio ao compartilhamento `publico`:
 ```bash
 echo "Teste de compartilhamento Samba - Etapa 02" > /tmp/teste-samba.txt
 
-smbclient //localhost/publico -U 'LAB\administrator' \
-    -c 'put /tmp/teste-samba.txt teste-samba.txt'
+smbclient //localhost/publico -U 'LAB\administrator' -c 'put /tmp/teste-samba.txt teste-samba.txt'
 ```
 
 O envio retornou:
