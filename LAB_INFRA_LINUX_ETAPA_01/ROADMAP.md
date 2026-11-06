@@ -11,9 +11,9 @@
 - [x] Registro de troubleshooting
 
 ## Etapa 02 — File Server
-- [ ] Debian
-- [ ] Ingresso no domínio
-- [ ] Estrutura de diretórios
+- [x] Debian
+- [x] Ingresso no domínio
+- [x] Estrutura de diretórios
 - [ ] Compartilhamentos
 - [ ] Testes de acesso
 
