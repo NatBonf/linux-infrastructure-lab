@@ -14,13 +14,13 @@
 - [x] Debian
 - [x] Ingresso no domínio
 - [x] Estrutura de diretórios
-- [ ] Compartilhamentos
-- [ ] Testes de acesso
+- [x] Compartilhamentos
+- [x] Testes de acesso
 
 ## Etapa 03 — Identidades
-- [ ] Usuários
-- [ ] Grupos
-- [ ] Organização por função
+- [x] Usuários
+- [x] Grupos
+- [x] Organização por função
 - [ ] Políticas de acesso
 
 ## Etapa 04 — Permissões
